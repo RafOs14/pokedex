@@ -6,10 +6,10 @@
 ## Tecnologías usadas
 ***
 Lista de tecnologías y recursos utilizados en el proyecto:
-* [HTML]
-* [JavaScript]
-* [Bootstrap]
-* [PokéApi](https://pokeapi.co/): Version 2
+* HTML
+* JavaScript
+* Bootstrap
+* [PokéApi](https://pokeapi.co/): Versión 2
 
 <h4 align="center">
 :construction: Proyecto en construcción :construction:
