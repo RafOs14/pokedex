@@ -1,0 +1,92 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Estilo básico del loader */
+.loader {
+  border: 8px solid #f3f3f3; /* Color del borde del loader */
+  border-top: 8px solid #3498db; /* Color del borde superior del loader */
+  border-radius: 50%; /* Hace que el loader sea circular */
+  width: 50px; /* Tamaño del loader */
+  height: 50px; /* Tamaño del loader */
+  animation: spin 2s linear infinite; /* Animación de rotación */
+  position: fixed; /* Posición fija para cubrir toda la ventana */
+  top: 50%; /* Alineación vertical en el centro */
+  left: 50%; /* Alineación horizontal en el centro */
+  margin-top: -25px; /* Ajuste vertical para centrar */
+  margin-left: -25px; /* Ajuste horizontal para centrar */
+  z-index: 9999; /* Capa superior para que aparezca encima de otros elementos */
+}
+
+/* Animación de rotación */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos de navegación */
+.navbar {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.navbar-brand {
+  font-size: 24px;
+}
+
+.navbar-toggler-icon {
+  color: #fff;
+}
+
+/* Estilos de búsqueda */
+#search-form {
+  margin-top: 20px;
+}
+
+/* Estilos de tarjetas de Pokémon */
+.card {
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+  font-size: 20px;
+}
+
+/*Estilo para el div de busqueda*/
+#divBusqueda{
+  position: relative;
+}
+
+/* Estilos de paginación */
+#pagination {
+  margin-top: 20px;
+}
+
+/* Estilos de pie de página */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+/* Media queries para hacer el diseño responsive */
+@media (max-width: 768px) {
+  /* Estilos específicos para dispositivos móviles y tabletas */
+  .navbar-brand {
+    font-size: 20px;
+  }
+
+  .card {
+    width: 100%;
+  }
+}
+
