@@ -8,4 +8,6 @@ Pokedex  API
 Pokedex utilizando HTML, JS, Bootstrap y la API de pokemon: 
   https://pokeapi.co/
 
-![Badge en Desarollo](https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green)
+<p align="left">
+   <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
+</p>
